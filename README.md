@@ -1,5 +1,5 @@
     Projeto Final – Desenvolvimento Web
-Sobre o Projeto
+    Sobre o Projeto
 Este repositório será utilizado para o desenvolvimento do Trabalho Final da disciplina de Desenvolvimento Web.
 
 O projeto está sendo desenvolvido pelos alunos:
@@ -8,8 +8,7 @@ O projeto está sendo desenvolvido pelos alunos:
 - Raissa Monteiro
 O objetivo é criar um site funcional para a Geipe, que faz parte da EICM.
 
-
-Objetivo
+        Objetivo
 - Desenvolver uma aplicação web que:
 - Apresente informações institucionais da Geipe
 - Disponibilize conteúdos relevantes
