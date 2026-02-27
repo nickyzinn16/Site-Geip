@@ -34,7 +34,7 @@
 }
 
 .menu ul li a {
-    color: white;
+    color: lightgray;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -52,7 +52,7 @@
     align-items: center;
     height: 55vh;
     padding: 40px 80px;
-    color: white;
+    color: lightgray;
     background-image:
         linear-gradient(rgba(10,44,102,0.85), rgba(10,44,102,0.85)),
         url("../resources/images/banner-geipe2.jpg");
