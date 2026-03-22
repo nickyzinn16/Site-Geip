@@ -12,7 +12,6 @@ O projeto está sendo desenvolvido pelos alunos:
 
 O objetivo é criar um site funcional para a GEIPE, que faz parte da EICM.
 
----
 
 ##  Objetivo
 
