@@ -8,6 +8,10 @@
     border-radius: 25%;
 }
 
+.menu ul li a.ativo {
+    color: #ffc107;
+}
+
 .logo img {
     width: 70px;
     height: auto;
@@ -117,7 +121,6 @@ body {
     padding: 0;
 }
 
-<<<<<<< HEAD
 .header {
     position: fixed;
     width: 100%;
@@ -200,9 +203,3 @@ h2 {
 .principios {
     padding: 60px 80px;
 }
-=======
-.logo {
-border-radius: 15px;
-}
-
->>>>>>> 2ed1d4a11a839565e42fccc53bc1d179f33a0669

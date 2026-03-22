@@ -1,7 +1,5 @@
-body {
-    margin: 0;
+.grid-container {
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 80px;
 }
 
 .logoGeipe {
@@ -10,16 +8,17 @@ body {
     border-radius: 25%;
 }
 
+.menu ul li a.ativo {
+    color: #ffc107;
+}
+
 .logo img {
     width: 70px;
     height: auto;
 }
 
 .header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
+    grid-area: header;
 }
 
 .navbar {
@@ -32,6 +31,7 @@ body {
 
 .menu ul {
     display: flex;
+    align-items: center;
     gap: 30px;
     list-style: none;
     margin: 0;
@@ -39,7 +39,7 @@ body {
 }
 
 .menu ul li a {
-    color: white;
+    color: lightgray;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
@@ -51,30 +51,77 @@ body {
 }
 
 .banner {
-    height: 55vh;
+    grid-area: banner;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
+    height: 55vh;
     padding: 40px 80px;
-    color: white;
+    color: lightgray;
     background-image:
-        linear-gradient(rgba(10,44,102,0.9), rgba(10,44,102,0.9)),
+        linear-gradient(rgba(10,44,102,0.85), rgba(10,44,102,0.85)),
         url("../resources/images/banner-geipe2.jpg");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .main-banner {
-    max-width: 700px;
+    max-width: 600px;
 }
 
 .main-banner h1 {
-    font-size: 3.2rem;
-    font-weight: 800;
-    line-height: 1.2;
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+    font-weight: 700;
 }
 
-
 .main-banner p {
-    font-size: 0.9rem;
-    margin-top: 20px;
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.button-estagio {
+    background-color: #ffc107;
+    color: #0a2c66;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.5;
+}
+
+.button-estagio:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.banner {
+    margin-top: 80px;
+}
+
+section {
+    padding: 30px 80px;
+}
+
+h2 {
+    color: #0a2c66;
+    margin-bottom: 20px;
 }
