@@ -43,11 +43,28 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    position: relative;
 }
 
 .menu ul li a:hover {
     color: #ffc107;
+    transform: scale(1.1);
+}
+
+.menu ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ffc107;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover::after {
+    width: 100%;
 }
 
 .banner {
@@ -93,7 +110,7 @@
     text-decoration: none;
     font-weight: bold;
     border-radius: 6px;
-    transition: 0.5;
+    transition: 0.5s;
 }
 
 .button-estagio:hover {
@@ -167,6 +184,13 @@ h2 {
     color: #0a2c66;
 }
 
+.box {
+    transition: transform 0.4s ease;
+}
+
+.box:hover {
+    transform: scale(1.03);
+}
 
 .publico ul {
     list-style: none;

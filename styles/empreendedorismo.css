@@ -12,6 +12,7 @@
     color: #ffc107;
 }
 
+
 .logo img {
     width: 70px;
     height: auto;
@@ -43,11 +44,28 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    transition: 0.3s;
+    transition: all 0.3s ease;
+    position: relative;
 }
 
 .menu ul li a:hover {
     color: #ffc107;
+    transform: scale(1.1);
+}
+
+.menu ul li a::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ffc107;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover::after {
+    width: 100%;
 }
 
 .banner {
