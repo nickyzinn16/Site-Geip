@@ -193,11 +193,13 @@ h2 {
     text-align: center;
     border-radius: 8px;
     transition: 0.3s;
+    font-weight: bold;
 }
 
 .card:hover {
     background-color: #ffc107;
     color: #0a2c66;
+    font-weight: bold;
 }
 
 .principios {

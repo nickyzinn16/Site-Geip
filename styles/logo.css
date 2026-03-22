@@ -8,17 +8,11 @@
     border-radius: 25%;
 }
 
-.menu ul li a.ativo {
-    color: #ffc107;
-}
-
-.logo img {
-    width: 70px;
-    height: auto;
-}
-
 .header {
-    grid-area: header;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar {
@@ -27,6 +21,11 @@
     align-items: center;
     padding: 12px 60px;
     background-color: #0a2c66;
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
 }
 
 .menu ul {
@@ -50,8 +49,12 @@
     color: #ffc107;
 }
 
+.menu ul li a.ativo {
+    color: #ffc107;
+}
+
 .banner {
-    grid-area: banner;
+    margin-top: 80px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -81,40 +84,10 @@
     margin-bottom: 25px;
 }
 
-.banner-buttons {
-    display: flex;
-    gap: 20px;
-}
-
-.button-estagio {
-    background-color: #ffc107;
-    color: #0a2c66;
-    padding: 12px 28px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 6px;
-    transition: 0.5;
-}
-
-.button-estagio:hover {
-    background-color: #e0a800;
-    transform: scale(1.05);
-}
 
 body {
     margin: 0;
     padding: 0;
-}
-
-.header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.banner {
-    margin-top: 80px;
 }
 
 section {
@@ -126,44 +99,9 @@ h2 {
     margin-bottom: 20px;
 }
 
-.etapas {
-    padding: 60px 80px;
-}
-
-.etapas .box {
-    flex: 1 1 300px;
-}
-
-.card {
-    flex: 1 1 250px;
-    background-color: #0a2c66;
-    color: white;
-    padding: 30px;
-    text-align: left;
-    border-radius: 8px;
-    transition: 0.3s;
-}
-
-.card h3 {
-    color: #ffc107;
-}
-
-.card ul {
-    padding-left: 20px;
-    margin: 10px 0;
-}
-
-.card li {
-    margin-bottom: 9px;
-}
-
-.cards {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.card p {
+.grid-container p {
+    font-size: 16px;
     line-height: 1.6;
-    margin-bottom: 10px;
+    text-align: justify;
+    color: #0a2c66;
 }
