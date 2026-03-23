@@ -122,3 +122,16 @@ h2 {
     color: #0a2c66;
     margin-bottom: 20px;
 }
+
+#btn-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 15px;
+    font-size: 18px;
+    background-color: #0a2c66;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

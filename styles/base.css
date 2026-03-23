@@ -229,3 +229,83 @@ h2 {
 .principios {
     padding: 60px 80px;
 }
+
+/* FOOTER */
+.footer {
+    background-color: #0a2c66;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 80px;
+}
+
+.imagem-footer,
+.info-uteis,
+.endereco-contactos,
+.redes-container {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-logo {
+    width: 80px;
+    margin-bottom: 10px;
+    border-radius: 10%;
+}
+
+.footer h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.info-uteis ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info-uteis ul li {
+    margin-bottom: 8px;
+}
+
+.info-uteis ul li a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.endereco-contactos p {
+    margin-bottom: 6px;
+    color: lightgray;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 12px;
+    background-color: #08224d;
+    font-size: 14px;
+}
+
+#btn-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 15px;
+    font-size: 18px;
+    background-color: #0a2c66;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

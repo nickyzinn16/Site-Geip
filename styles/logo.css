@@ -101,7 +101,6 @@
     margin-bottom: 25px;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -121,4 +120,17 @@ h2 {
     line-height: 1.6;
     text-align: justify;
     color: #0a2c66;
+}
+
+#btn-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 15px;
+    font-size: 18px;
+    background-color: #0a2c66;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
 }
