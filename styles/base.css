@@ -172,7 +172,7 @@ h2 {
 /* box*/
 .box {
     flex: 1;
-    background-color: #F7F7F7;
+    background-color: #FAFAFA;
     padding: 20px;
     border-left: 7px solid 	#FFD700;
     border-radius: 6px;
@@ -252,18 +252,37 @@ h2 {
     padding: 40px 80px;
 }
 
-.imagem-footer,
-.info-uteis,
-.endereco-contactos,
+.imagem-footer {
+    flex: 1;
+    min-width: 200px;
+}
+
+.info-uteis {
+    flex: 1;
+    min-width: 200px;
+}
+
+.endereco-contactos {
+    flex: 1;
+    min-width: 200px;
+}
+
 .redes-container {
     flex: 1;
     min-width: 200px;
 }
 
-.footer-logo {
+.imagem-footer img {
     width: 80px;
     margin-bottom: 10px;
-    border-radius: 10%;
+    border-radius: 25%;
+}
+
+.imagem-footer p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffc107;
+    margin-left: 11px;
 }
 
 .footer h4 {
@@ -334,7 +353,7 @@ h2 {
 
 .entre-contacto p {
     margin-bottom: 20px;
-    color: #333;
+    color: #0a2c66;
 }
 
 .btn-contacto {
@@ -350,4 +369,11 @@ h2 {
 .entre-contacto {
     position: relative;
     z-index: 1;
+}
+
+.ganhos .box img {
+    width: 50%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 6px;
 }
