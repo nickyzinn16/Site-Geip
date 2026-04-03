@@ -8,7 +8,7 @@ O projeto está sendo desenvolvido pelos alunos:
 
 - Ricardo Santos  
 - Iran Silva  
-- Raissa Monteiro  
+- Raíssa Monteiro  
 
 O objetivo é criar um site funcional para a GEIPE, que faz parte da EICM.
 
