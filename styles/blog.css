@@ -111,14 +111,12 @@ body {
     background: #ffffff;
 }
 
-
 .header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
 }
-
 
 .navbar {
     display: flex;
@@ -128,18 +126,15 @@ body {
     background-color: #0a2c66;
 }
 
-
 .logoGeipe {
     width: 70px;
 }
-
 
 .menu ul {
     display: flex;
     gap: 30px;
     list-style: none;
 }
-
 
 .menu ul li a {
     color: lightgray;
@@ -149,11 +144,9 @@ body {
     transition: 0.3s;
 }
 
-
 .menu ul li a:hover {
     color:#ffc107;
 }
-
 
 .menu ul li a.ativo {
     color:#ffc107;
@@ -164,11 +157,9 @@ body {
     padding: 30px 80px;
 }
 
-
 h2 {
     color:#0a2c66;
 }
-
 
 .pesquisar {
     display:flex;
@@ -176,14 +167,12 @@ h2 {
     margin-bottom:30px;
 }
 
-
 .pesquisar input {
     flex: 1;
     padding: 10px;
     border-radius: 6px;
     border: 1px solid lightgray;
 }
-
 
 .pesquisar button {
     padding:10px 20px;
@@ -194,13 +183,11 @@ h2 {
     cursor:pointer;
 }
 
-
 .noticias {
     display:grid;
     grid-template-columns:repeat(3,1fr);
     gap:25px;
 }
-
 
 .noticia {
     display:block;
@@ -213,11 +200,9 @@ h2 {
     transition:0.3s;
 }
 
-
 .noticia:hover {
     transform:translateY(-5px);
 }
-
 
 .noticia img {
     width:100%;
@@ -225,14 +210,12 @@ h2 {
     object-fit:cover;
 }
 
-
 .noticia h3 {
     padding:15px;
     color:#0a2c66;
     font-size:18px;
     font-style: bold;
 }
-
 
 .noticia p {
     padding:0 15px 15px 15px;
