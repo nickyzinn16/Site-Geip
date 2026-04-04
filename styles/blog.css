@@ -106,47 +106,47 @@ h2 {
 }
 
 body {
-    margin:0;
-    font-family:Arial, Helvetica, sans-serif;
-    background:#ffffff;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
 }
 
 
 .header {
-    position:fixed;
-    top:0;
-    width:100%;
-    z-index:1000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 
 .navbar {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:12px 60px;
-    background-color:#0a2c66;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
+    background-color: #0a2c66;
 }
 
 
 .logoGeipe {
-    width:70px;
+    width: 70px;
 }
 
 
 .menu ul {
-    display:flex;
-    gap:30px;
-    list-style:none;
+    display: flex;
+    gap: 30px;
+    list-style: none;
 }
 
 
 .menu ul li a {
-    color:lightgray;
-    text-decoration:none;
-    font-weight:bold;
-    font-size:18px;
-    transition:0.3s;
+    color: lightgray;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
 }
 
 
@@ -160,33 +160,13 @@ body {
 }
 
 .blog-container {
-    margin-top:120px;
-    padding:30px 80px;
+    margin-top: 120px;
+    padding: 30px 80px;
 }
 
 
 h2 {
     color:#0a2c66;
-}
-
-
-.categorias {
-    display:flex;
-    gap:25px;
-    margin-bottom:20px;
-}
-
-
-.categorias a {
-    text-decoration:none;
-    font-weight:bold;
-    color:#555;
-}
-
-
-.categoria-ativa {
-    color:#0a2c66;
-    border-bottom:2px solid #0a2c66;
 }
 
 
@@ -198,10 +178,10 @@ h2 {
 
 
 .pesquisar input {
-    flex:1;
-    padding:10px;
-    border-radius:6px;
-    border:1px solid lightgray;
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid lightgray;
 }
 
 
