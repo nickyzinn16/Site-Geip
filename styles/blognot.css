@@ -12,7 +12,6 @@
     color: #ffc107;
 }
 
-
 .logo img {
     width: 70px;
     height: auto;
@@ -68,41 +67,6 @@
     width: 100%;
 }
 
-.banner {
-    grid-area: banner;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 55vh;
-    padding: 40px 80px;
-    color: lightgray;
-    background-image:
-        linear-gradient(rgba(10,44,102,0.85), rgba(10,44,102,0.85)),
-        url("../resources/images/banner-geipe2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.main-banner {
-    max-width: 600px;
-}
-
-.main-banner h1 {
-    font-size: 2.8rem;
-    margin-bottom: 15px;
-}
-
-.main-banner p {
-    font-size: 1.2rem;
-    margin-bottom: 25px;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
 .header {
     position: fixed;
     width: 100%;
@@ -136,57 +100,107 @@ h2 {
     cursor: pointer;
 }
 
-.contact-area {
-    padding: 40px 80px;
-    margin-top: 40px;
-    border-radius: 8px;
-}
-
-.contact-area h2 {
-    color: #0a2c66;
-    margin-bottom: 10px;
-}
-
-.contact-area p {
-    margin-bottom: 25px;
-    color: rgb(75, 75, 75);
+body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
 }
 
-.contact-form {
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contact-form label {
-    font-weight: bold;
-    color: #0a2c66;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 10px;
-    border: 1px solid lightgrey;
-    border-radius: 6px;
-    font-size: 16px;
-    resize: vertical;
-}
-
-.contact-form button {
-    width: 150px;
-    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 60px;
     background-color: #0a2c66;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
+}
+
+.logoGeipe {
+    width: 70px;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu ul li a {
+    color: lightgray;
+    text-decoration: none;
     font-weight: bold;
+    font-size: 18px;
     transition: 0.3s;
 }
 
-.contact-form button:hover {
-    background-color: #ffc107;
-    color: #0a2c66;
+.menu ul li a:hover {
+    color:#ffc107;
+}
+
+.menu ul li a.ativo {
+    color:#ffc107;
+}
+
+.banner {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    height: 45vh;
+    padding: 40px 80px;
+    color: white;
+
+    background-image:
+        linear-gradient(rgba(10,44,102,0.75), rgba(10,44,102,0.6)),
+        url("../resources/images/jornais-cke.webp");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.main-banner {
+    max-width: 600px;
+}
+
+.main-banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main-banner p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+.conteudo-noticia {
+    background-color: white;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.noticia-container {
+    background-color: #f2f2f2;
+    max-width: 900px;
+    padding: 40px 60px;
+    border-radius: 6px;
+}
+
+.noticia-container h1 {
+    color: #1E1E1E;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.noticia-container p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #1E1E1E;
+    text-align: justify;
 }
