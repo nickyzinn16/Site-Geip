@@ -82,6 +82,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 80px;
 }
 
 .main-banner {
@@ -110,10 +111,6 @@ body {
     z-index: 1000;
 }
 
-.banner {
-    margin-top: 80px;
-}
-
 section {
     padding: 30px 80px;
 }
@@ -137,8 +134,8 @@ h2 {
 }
 
 .contact-area {
-    padding: 40px 80px;
-    margin-top: 40px;
+    padding: 4px 80px;
+    margin-top: 5px;
     border-radius: 8px;
 }
 

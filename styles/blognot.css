@@ -155,11 +155,9 @@ body {
     height: 45vh;
     padding: 40px 80px;
     color: white;
-
     background-image:
         linear-gradient(rgba(10,44,102,0.75), rgba(10,44,102,0.6)),
         url("../resources/images/jornais-cke.webp");
-
     background-size: cover;
     background-position: center;
 }
@@ -188,7 +186,7 @@ body {
 .noticia-container {
     background-color: #f2f2f2;
     max-width: 900px;
-    padding: 40px 60px;
+    padding: 10px 40px;
     border-radius: 6px;
 }
 
