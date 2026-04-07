@@ -67,37 +67,6 @@
     width: 100%;
 }
 
-.banner {
-    grid-area: banner;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 55vh;
-    padding: 40px 80px;
-    color: lightgray;
-    background-image:
-        linear-gradient(rgba(10,44,102,0.85), rgba(10,44,102,0.85)),
-        url("../resources/images/banner-geipe2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.main-banner {
-    max-width: 600px;
-}
-
-.main-banner h1 {
-    font-size: 2.8rem;
-    margin-bottom: 15px;
-    font-weight: 700;
-}
-
-.main-banner p {
-    font-size: 1.2rem;
-    margin-bottom: 25px;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -108,10 +77,6 @@ body {
     width: 100%;
     top: 0;
     z-index: 1000;
-}
-
-.banner {
-    margin-top: 80px;
 }
 
 section {

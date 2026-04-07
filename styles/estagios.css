@@ -81,6 +81,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 
 .main-banner {
@@ -116,11 +118,6 @@
 .button-estagio:hover {
     background-color: #e0a800;
     transform: scale(1.05);
-}
-
-body {
-    margin: 0;
-    padding: 0;
 }
 
 .header {
@@ -185,9 +182,9 @@ h2 {
     margin-bottom: 10px;
 }
 
-.card:hover {
+/*.card:hover {
     transform: scale(1.03);
-}
+}*/
 
 #btn-topo {
     position: fixed;

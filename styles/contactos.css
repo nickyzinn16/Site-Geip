@@ -1,7 +1,3 @@
-.grid-container {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .logoGeipe {
     width: 120px;
     height: 120px;
@@ -11,7 +7,6 @@
 .menu ul li a.ativo {
     color: #ffc107;
 }
-
 
 .logo img {
     width: 70px;
@@ -68,40 +63,10 @@
     width: 100%;
 }
 
-.banner {
-    grid-area: banner;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 55vh;
-    padding: 40px 80px;
-    color: lightgray;
-    background-image:
-        linear-gradient(rgba(10,44,102,0.85), rgba(10,44,102,0.85)),
-        url("../resources/images/banner-geipe2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin-top: 80px;
-}
-
-.main-banner {
-    max-width: 600px;
-}
-
-.main-banner h1 {
-    font-size: 2.8rem;
-    margin-bottom: 15px;
-}
-
-.main-banner p {
-    font-size: 1.2rem;
-    margin-bottom: 25px;
-}
-
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {

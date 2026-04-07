@@ -29,7 +29,6 @@
     background-color: #0a2c66;
 }
 
-
 /* Menu de navegação */
 .menu ul {
     display: flex;
@@ -69,73 +68,6 @@
     width: 100%;
 }
 
-/* Banner principal */
-.banner {
-    grid-area: banner;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 55vh;
-    padding: 40px 80px;
-    color: lightgray;
-    background-image:
-        linear-gradient(rgba(10,44,102,0.85), rgba(10,44,102,0.85)),
-        url("../resources/images/banner-geipe2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.main-banner {
-    max-width: 600px;
-}
-
-.main-banner h1 {
-    font-size: 2.8rem;
-    margin-bottom: 15px;
-}
-
-.main-banner p {
-    font-size: 1.2rem;
-    margin-bottom: 25px;
-}
-
-.banner-buttons {
-    display: flex;
-    gap: 20px;
-}
-
-.button-estagio {
-    background-color: #ffc107;
-    color: #0a2c66;
-    padding: 12px 28px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 6px;
-    transition: 0.5s;
-}
-
-.button-estagio:hover {
-    background-color: #e0a800;
-    transform: scale(1.05);
-}
-
-.button-oportunidade {
-    background-color: #e6e6e6;
-    color: #0a2c66;
-    padding: 12px 28px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 6px;
-    transition: 0.5s;
-}
-
-.button-oportunidade:hover {
-    background-color: #d4d4d4;
-    transform: scale(1.05);
-}
-
-
 body {
     margin: 0;
     padding: 0;
@@ -146,10 +78,6 @@ body {
     width: 100%;
     top: 0;
     z-index: 1000;
-}
-
-.banner {
-    margin-top: 80px;
 }
 
 section {
@@ -171,7 +99,7 @@ h2 {
     flex: 1;
     background-color: #FAFAFA;
     padding: 20px;
-    border-left: 7px solid 	#FFD700;
+    border-left: 7px solid #FFD700;
     border-radius: 6px;
 }
 
@@ -205,7 +133,6 @@ h2 {
     padding: 10px 0;
     border-bottom: 1px solid #0a2c66;
 }
-
 
 /*cards da area de atuacao*/
 .cards {
@@ -248,7 +175,6 @@ h2 {
     border-radius: 6px;
     cursor: pointer;
 }
-
 
 /*Botao de entrar em contactos*/
 .entre-contacto {
