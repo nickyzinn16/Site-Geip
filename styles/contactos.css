@@ -13,10 +13,6 @@
     height: auto;
 }
 
-.header {
-    grid-area: header;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;

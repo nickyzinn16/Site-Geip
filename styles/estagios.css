@@ -1,7 +1,3 @@
-.grid-container {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .logoGeipe {
     width: 120px;
     height: 120px;
@@ -15,10 +11,6 @@
 .logo img {
     width: 70px;
     height: auto;
-}
-
-.header {
-    grid-area: header;
 }
 
 .navbar {
@@ -43,7 +35,6 @@
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
     transition: color 0.3s ease;
     position: relative;
 }
@@ -70,6 +61,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -94,10 +86,6 @@ h2 {
 
 .etapas {
     padding: 60px 80px;
-}
-
-.etapas .box {
-    flex: 1 1 300px;
 }
 
 .card {
