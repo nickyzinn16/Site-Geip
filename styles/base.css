@@ -29,7 +29,7 @@
 .menu ul {
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 30px;
     list-style: none;
     margin: 0;
     padding: 0;
