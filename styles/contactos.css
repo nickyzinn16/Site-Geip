@@ -9,7 +9,7 @@
 }
 
 .logo img {
-    width: 70px;
+    width: 50px;
     height: auto;
 }
 
@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 60px;
+    padding: 6px 60px;
     background-color: #0a2c66;
 }
 
@@ -30,10 +30,19 @@
     padding: 0;
 }
 
+.l img {
+    width: 700px;
+    height: 700px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
 .menu ul li a {
-    color: lightgray;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
     font-size: 18px;
     transition: all 0.3s ease;
     position: relative;
@@ -95,6 +104,8 @@ h2 {
 }
 
 .contact-area {
+    display: flex;
+    flex-direction: row;
     padding: 19px 80px;
     margin-top: 5px;
     border-radius: 8px;
@@ -147,4 +158,14 @@ h2 {
 .contact-form button:hover {
     background-color: #ffc107;
     color: #0a2c66;
+}
+
+.contact-image {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-image img {
+    width: 100%;
+    max-width: 700px;
 }

@@ -13,7 +13,7 @@
 }
 
 .logo img {
-    width: 70px;
+    width: 50px;
     height: auto;
 }
 
@@ -25,7 +25,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 60px;
+    padding: 6px 60px;
     background-color: #0a2c66;
 }
 
@@ -39,9 +39,8 @@
 }
 
 .menu ul li a {
-    color: lightgray;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
     font-size: 18px;
     transition: all 0.3s ease;
     position: relative;
@@ -72,10 +71,6 @@
     width: 100%;
     top: 0;
     z-index: 1000;
-}
-
-.banner {
-    margin-top: 80px;
 }
 
 section {
@@ -132,48 +127,12 @@ body {
     list-style: none;
 }
 
-.menu ul li a {
-    color: lightgray;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
 .menu ul li a:hover {
     color:#ffc107;
 }
 
 .menu ul li a.ativo {
     color:#ffc107;
-}
-
-.banner {
-    margin-top: 80px;
-    display: flex;
-    align-items: center;
-    height: 45vh;
-    padding: 40px 80px;
-    color: white;
-    background-image:
-        linear-gradient(rgba(10,44,102,0.75), rgba(10,44,102,0.6)),
-        url("../resources/images/jornais-cke.webp");
-    background-size: cover;
-    background-position: center;
-}
-
-.main-banner {
-    max-width: 600px;
-}
-
-.main-banner h1 {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.main-banner p {
-    font-size: 1.2rem;
-    color: #e0e0e0;
 }
 
 .conteudo-noticia {
