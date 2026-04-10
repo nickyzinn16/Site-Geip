@@ -150,3 +150,16 @@ h2 {
     line-height: 1.6;
     margin-bottom: 15px;
 }
+
+.botao {
+    text-decoration: none;
+    font-size: 14px;
+    color: #0a2c66;
+    border-radius: 2px;
+    background-color: #ffc107;
+}
+
+.botao:hover {
+    background-color: #0a2c66;
+    color: #ffc107;
+}
