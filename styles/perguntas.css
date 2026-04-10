@@ -92,3 +92,12 @@ h2 {
     border-radius: 6px;
     cursor: pointer;
 }
+
+.faq {
+    padding: 40px 80px;
+}
+
+.faq h2 {
+    color: #0a2c66;
+    margin-bottom: 25px;
+}
