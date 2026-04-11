@@ -1,18 +1,22 @@
+/* Define o tamanho e formato arredondado da imagem do logo */
 .logoGeipe {
     width: 120px;
     height: 120px;
     border-radius: 25%;
 }
 
+/* Destaca o link ativo no menu */
 .menu ul li a.ativo {
     color: #ffc107;
 }
 
+/* Define o tamanho da imagem do logo */
 .logo img {
     width: 50px;
     height: auto;
 }
 
+/* Define o estilo do navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -21,6 +25,7 @@
     background-color: #0a2c66;
 }
 
+/* Organiza os itens do menu */
 .menu ul {
     display: flex;
     align-items: center;
@@ -30,11 +35,13 @@
     padding: 0;
 }
 
+/* Define o layout do formulário */
 form {
     display: flex;
     flex-direction: row;
 }
 
+/* Define o estilo dos links do menu */
 .menu ul li a {
     color: white;
     text-decoration: none;
@@ -43,11 +50,13 @@ form {
     position: relative;
 }
 
+/* Aplica efeito ao passar o rato nos links do menu */
 .menu ul li a:hover {
     color: #ffc107;
     transform: scale(1.1);
 }
 
+/* Cria uma linha por baixo dos links */
 .menu ul li a::after {
     content: "";
     position: absolute;
@@ -59,16 +68,19 @@ form {
     transition: 0.3s;
 }
 
+/* Faz a linha aparecer ao passar o rato */
 .menu ul li a:hover::after {
     width: 100%;
 }
 
+/* Remove margens e define a fonte do body */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Mantém o header fixo no topo */
 .header {
     position: fixed;
     width: 100%;
@@ -76,15 +88,18 @@ body {
     z-index: 1000;
 }
 
+/* Define o espaçamento das secções */
 section {
     padding: 20px 80px;
 }
 
+/* Define o estilo dos títulos */
 h2 {
     color: #0a2c66;
     margin-bottom: 20px;
 }
 
+/* Define o estilo do botão de voltar ao topo */
 #btn-topo {
     position: fixed;
     bottom: 20px;
@@ -98,6 +113,7 @@ h2 {
     cursor: pointer;
 }
 
+/* Define o layout da área de contacto */
 .contact-area {
     display: flex;
     flex-direction: row;
@@ -108,29 +124,34 @@ h2 {
     padding-bottom: 2px;
 }
 
+/* Define o estilo do título na área de contacto */
 .contact-area h2 {
     color: #0a2c66;
     margin-bottom: 10px;
 }
 
+/* Define o estilo do texto na área de contacto */
 .contact-area p {
     margin-bottom: 25px;
     color: rgb(75, 75, 75);
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Organiza os campos do formulário em coluna */
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
+/* Define o estilo do label do formulário */
 .contact-form label {
     font-weight: bold;
     color: #0a2c66;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Define o estilo dos inputs e textarea */
 .contact-form input,
 .contact-form textarea {
     padding: 10px;
@@ -140,6 +161,7 @@ h2 {
     resize: vertical;
 }
 
+/* Define o estilo do botão de enviar do formulário */
 .contact-form button {
     width: 150px;
     padding: 10px;
@@ -152,13 +174,14 @@ h2 {
     transition: 0.3s;
 }
 
+/* Aplica efeito ao passar o rato no botão de enviar */
 .contact-form button:hover {
     background-color: #ffc107;
     color: #0a2c66;
 }
 
+/* Define o tamanho da imagem da área de contacto */
 .contact-image img {
     width: 700px;
     height: auto;
 }
-

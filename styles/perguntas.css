@@ -1,18 +1,22 @@
+/* Define o tamanho e formato arredondado do logo */
 .logoGeipe {
     width: 120px;
     height: 120px;
     border-radius: 25%;
 }
 
+/* Destaca o link ativo no menu */
 .menu ul li a.ativo {
     color: #ffc107;
 }
 
+/* Define o tamanho do logo dentro da navbar */
 .logo img {
     width: 50px;
     height: auto;
 }
 
+/* Estilo da barra de navegação */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -21,6 +25,7 @@
     background-color: #0a2c66;
 }
 
+/* Organiza os itens do menu em linha */
 .menu ul {
     display: flex;
     align-items: center;
@@ -30,6 +35,7 @@
     padding: 0;
 }
 
+/* Estilo dos links do menu */
 .menu ul li a {
     color: white;
     text-decoration: none;
@@ -38,11 +44,13 @@
     position: relative;
 }
 
+/* Efeito ao passar o rato nos links */
 .menu ul li a:hover {
     color: #ffc107;
     transform: scale(1.1);
 }
 
+/* Cria uma linha  por baixo dos links */
 .menu ul li a::after {
     content: "";
     position: absolute;
@@ -54,16 +62,19 @@
     transition: 0.3s;
 }
 
+/* Faz a linha aparecer ao passar o rato */
 .menu ul li a:hover::after {
     width: 100%;
 }
 
+/* Define a fonte do site */
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Mantém o header fixo no topo da página */
 .header {
     position: fixed;
     width: 100%;
@@ -71,15 +82,18 @@ body {
     z-index: 1000;
 }
 
+/* Define o espaçamento das secções */
 section {
     padding: 30px 80px;
 }
 
+/* Estilo dos títulos h2 */
 h2 {
     color: #0a2c66;
     margin-bottom: 20px;
 }
 
+/* Estilo do botão de voltar ao topo */
 #btn-topo {
     position: fixed;
     bottom: 20px;
@@ -93,10 +107,12 @@ h2 {
     cursor: pointer;
 }
 
+/* Área da secção */
 .faq {
     padding: 40px 80px;
 }
 
+/* Estilo do título dentro da secção */
 .faq h2 {
     color: #0a2c66;
     margin-bottom: 25px;
