@@ -1,0 +1,78 @@
+/* Define o estilo principal da secção banner */
+.banner {
+    grid-area: banner;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 35vh;
+    padding: 40px 80px;
+    color: lightgray;
+    background-image:
+        linear-gradient(rgba(10,44,102,0.85), rgba(10,44,102,0.85)),
+        url("../resources/images/banner-geipe2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Define margem superior do banner */
+.banner {
+    margin-top: 60px;
+}
+
+/* Define a largura máxima do conteúdo do banner */
+.main-banner {
+    max-width: 600px;
+}
+
+/* Estilo do título h1 do banner */
+.main-banner h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+/* Estilo do texto dentro do banner */
+.main-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+}
+
+/* Container que organiza os botões em linha */
+.banner-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilo do botão estágio */
+.button-estagio {
+    background-color: #ffc107;
+    color: #0a2c66;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+/* Efeito ao passar o rato no botão estágio */
+.button-estagio:hover {
+    background-color: #e0a800;
+    transform: scale(1.05);
+}
+
+/* Estilo do botão oportunidade */
+.button-oportunidade {
+    background-color: #e6e6e6;
+    color: #0a2c66;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+/* Efeito ao passar o rato no botão oportunidade */
+.button-oportunidade:hover {
+    background-color: #d4d4d4;
+    transform: scale(1.05);
+}
