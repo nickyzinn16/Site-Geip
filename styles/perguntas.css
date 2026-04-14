@@ -79,7 +79,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
 }
 
 /* Define o espaçamento das secções */
@@ -116,4 +116,52 @@ h2 {
 .faq h2 {
     color: #0a2c66;
     margin-bottom: 25px;
+}
+
+/* Margem do simbolo de login*/
+.login-icon {
+    margin-left: 20px;
+}
+
+/* Estilo do ícone de login */
+.login-icon i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito hover do ícone de login */
+.login-icon i:hover {
+    color: #ffc107;
+}
+
+/* Estilo dos itens de FAQ */
+.faq-item {
+    margin-bottom: 20px;
+    padding: 15px 20px;
+    border-left: 4px solid #ffc107;
+    background-color: #f5f7fa;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+/* Efeito hover dos itens de FAQ */
+.faq-item:hover {
+    transform: scale(1.03); 
+}
+
+/* Estilo das perguntas */
+.pergunta {
+    margin: 0;
+    color: #0a2c66;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Estilo das respostas */
+.resposta {
+    margin-top: 8px;
+    color: #242323;
+    line-height: 1.5;
 }

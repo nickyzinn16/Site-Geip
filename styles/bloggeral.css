@@ -88,7 +88,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
 }
 
 /* Define o espaçamento das secções */
@@ -164,7 +164,7 @@ body {
 
 /* Define o espaço do blog */
 .blog-container {
-    margin-top: 120px;
+    margin-top: 80px;
     padding: 30px 80px;
 }
 
@@ -240,4 +240,22 @@ h2 {
 .noticia p {
     padding:0 15px 15px 15px;
     color: #0a2c66;
+}
+
+/* Margem do simbolo de login*/
+.login-icon {
+    margin-left: 20px;
+}
+
+/* Estilo do ícone de login */
+.login-icon i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito hover do ícone de login */
+.login-icon i:hover {
+    color: #ffc107;
 }

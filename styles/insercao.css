@@ -79,7 +79,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
 }
 
 /* Define o espaçamento das secções */
@@ -109,7 +109,7 @@ h2 {
 
 /* Estilo do título da página do body */
 .titulo {
-    font-size: 32px;
+    font-size: 28px;
     color: #0a2c66;
     text-align: center;
     margin-top: 40px;
@@ -184,4 +184,21 @@ h2 {
     border-radius: 2px;
     background-color: #ffc107;
     padding: 10px 15px;
+}
+/* Margem do simbolo de login*/
+.login-icon {
+    margin-left: 20px;
+}
+
+/* Estilo do ícone de login */
+.login-icon i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito hover do ícone de login */
+.login-icon i:hover {
+    color: #ffc107;
 }

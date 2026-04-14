@@ -106,5 +106,6 @@
 }
 
 .footer-bottom a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: #FFD700;
 }

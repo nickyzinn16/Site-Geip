@@ -79,7 +79,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
 }
 
 /* Espaçamento das secções */
@@ -105,4 +105,22 @@ h2 {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+}
+
+/* Margem do simbolo de login*/
+.login-icon {
+    margin-left: 20px;
+}
+
+/* Estilo do ícone de login */
+.login-icon i {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito hover do ícone de login */
+.login-icon i:hover {
+    color: #ffc107;
 }
