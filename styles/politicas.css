@@ -16,6 +16,21 @@
     height: auto;
 }
 
+/* Estilo do a*/
+.login a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Texto do spam */
+.login span {
+    font-size: 12px;
+    color: white;
+    margin-top: 3px;
+    transition: 0.3s;
+}
+
 /* Estilo do navbar */
 .navbar {
     display: flex;

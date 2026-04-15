@@ -10,6 +10,21 @@
     border-radius: 25%;
 }
 
+/* Estilo do a*/
+.login a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Texto do spam */
+.login span {
+    font-size: 12px;
+    color: white;
+    margin-top: 3px;
+    transition: 0.3s;
+}
+
 /* Cor do link ativo no menu */
 .menu ul li a.ativo {
     color: #ffc107;
@@ -187,24 +202,6 @@ h2 {
     border: none;
     border-radius: 6px;
     cursor: pointer;
-}
-
-/* Secção de chamada para contactos */
-.entre-contacto {
-    text-align: center;
-    padding: 50px 20px;
-}
-
-/* Título da secção de contacto */
-.entre-contacto h2 {
-    color: #0a2c66;
-    margin-bottom: 10px;
-}
-
-/* Texto da secção de contacto */
-.entre-contacto p {
-    margin-bottom: 20px;
-    color: #0a2c66;
 }
 
 /* Botão de contacto */
