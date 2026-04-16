@@ -33,8 +33,25 @@
 
 /* Estilo do texto dentro do banner */
 .main-banner p {
-    font-size: 1.2rem;
+    font-size: 16px;
     margin-bottom: 25px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.navbar .btn-login {
+    background-color: #ffc107;
+    color: #0a2c66;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar .btn-login:hover {
+    color: #0a2c66;
 }
 
 /* Container que organiza os botões em linha */
