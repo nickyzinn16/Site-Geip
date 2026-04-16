@@ -1,134 +1,8 @@
-/* Define o tamanho e formato arredondado da imagem do logo */
-.logoGeipe {
-    width: 120px;
-    height: 120px;
-    border-radius: 25%;
-}
-
-/* Destaca o link ativo no menu */
-.menu ul li a.ativo {
-    color: #ffc107;
-}
-
-/* Define o tamanho da imagem do logo */
-.logo img {
-    width: 50px;
-    height: auto;
-}
-
-.navbar .btn-login {
-    background-color: #ffc107;
-    color: #0a2c66;
-    padding: 3px 10px;
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.navbar .btn-login:hover {
-    color: #0a2c66;
-}
-
-/* Define o estilo do navbar */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6px 60px;
-    background-color: #0a2c66;
-}
-
-/* Organiza os itens do menu */
-.menu ul {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* Define o layout do formulário */
 form {
     display: flex;
     flex-direction: row;
 }
 
-/* Define o estilo dos links do menu */
-.menu ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    position: relative;
-}
-
-/* Aplica efeito ao passar o rato nos links do menu */
-.menu ul li a:hover {
-    color: #ffc107;
-    transform: scale(1.1);
-}
-
-/* Cria uma linha por baixo dos links */
-.menu ul li a::after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    background-color: #ffc107;
-    left: 0;
-    bottom: -5px;
-    transition: 0.3s;
-}
-
-/* Faz a linha aparecer ao passar o rato */
-.menu ul li a:hover::after {
-    width: 100%;
-}
-
-/* Remove margens e define a fonte do body */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Mantém o header fixo no topo */
-.header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1;
-}
-
-/* Define o espaçamento das secções */
-section {
-    padding: 20px 80px;
-}
-
-/* Define o estilo dos títulos */
-h2 {
-    color: #0a2c66;
-    margin-bottom: 20px;
-}
-
-/* Define o estilo do botão de voltar ao topo */
-#btn-topo {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 12px 15px;
-    font-size: 18px;
-    background-color: #0a2c66;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-/* Define o layout da área de contacto */
 .contact-area {
     display: flex;
     flex-direction: row;
@@ -138,52 +12,35 @@ h2 {
     padding-bottom: 2px;
 }
 
-/* Define o estilo do título na área de contacto */
 .contact-area h2 {
     color: #0a2c66;
     margin-bottom: 10px;
 }
 
-/* Define o estilo do texto na área de contacto */
 .contact-area p {
     margin-bottom: 25px;
     color: rgb(75, 75, 75);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Organiza os campos do formulário em coluna */
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-/* Define o estilo do label do formulário */
 .contact-form label {
     font-weight: bold;
     color: #0a2c66;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Define o estilo do input*/
-.contact-form input {
-    padding: 10px;
-    border: 1px solid lightgrey;
-    border-radius: 6px;
-    font-size: 16px;
-    resize: vertical;
-}
-
-/* Define o estilo do textarea */
+.contact-form input,
 .contact-form textarea {
     padding: 10px;
     border: 1px solid lightgrey;
     border-radius: 6px;
     font-size: 16px;
-    resize: vertical;
 }
 
-/* Define o estilo do botão de enviar do formulário */
 .contact-form button {
     width: 150px;
     padding: 10px;
@@ -196,32 +53,12 @@ h2 {
     transition: 0.3s;
 }
 
-/* Aplica efeito ao passar o rato no botão de enviar */
 .contact-form button:hover {
     background-color: #ffc107;
     color: #0a2c66;
 }
 
-/* Define o tamanho da imagem da área de contacto */
 .contact-image img {
     width: 700px;
     height: auto;
-}
-
-/* Margem do simbolo de login*/
-.login-icon {
-    margin-left: 20px;
-}
-
-/* Estilo do ícone de login */
-.login-icon i {
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-/* Efeito hover do ícone de login */
-.login-icon i:hover {
-    color: #ffc107;
 }

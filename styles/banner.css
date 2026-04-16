@@ -1,23 +1,18 @@
 /* Define o estilo principal da secção banner */
 .banner {
-    grid-area: banner;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 55vh;
     padding: 40px 80px;
     color: lightgray;
+    margin-top: 60px;
     background-image:
         linear-gradient(rgba(10,44,102,0.85), rgba(10,44,102,0.85)),
         url("../resources/images/banner-geipe2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-/* Define margem superior do banner */
-.banner {
-    margin-top: 60px;
 }
 
 /* Define a largura máxima do conteúdo do banner */

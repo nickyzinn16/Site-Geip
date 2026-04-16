@@ -1,42 +1,20 @@
-/* Define estilo do site */
-.grid-container {
+body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Estilo da imagem do logo GEIPE */
-.logoGeipe {
-    width: 120px;
-    height: 120px;
-    border-radius: 25%;
+section {
+    padding: 30px 80px;
 }
 
-.navbar .btn-login {
-    background-color: #ffc107;
-    color: #0a2c66;
-    padding: 3px 10px;
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.3s;
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
 
-.navbar .btn-login:hover {
-    color: #0a2c66;
-}
-
-/* Cor do link ativo no menu */
-.menu ul li a.ativo {
-    color: #ffc107;
-}
-
-/* Define tamanho do logo dentro da navbar */
-.logo img {
-    width: 50px;
-    height: auto;
-}
-
-/* Estilo da barra de navegação */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -45,7 +23,12 @@
     background-color: #0a2c66;
 }
 
-/* Estrutura do menu de navegação */
+.logo img { 
+    width: 50px; 
+    height: auto; 
+    border-radius: 25%; 
+}
+
 .menu ul {
     display: flex;
     align-items: center;
@@ -55,22 +38,22 @@
     padding: 0;
 }
 
-/* Estilo dos links do menu */
 .menu ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
-    transition: all 0.3s ease;
     position: relative;
+    transition: 0.3s;
 }
 
-/* Efeito hover dos links do menu */
 .menu ul li a:hover {
     color: #ffc107;
-    transform: scale(1.1);
 }
 
-/* Linha que cresce embaixo dos links do menu */
+.menu ul li a.ativo {
+    color: #ffc107;
+}
+
 .menu ul li a::after {
     content: "";
     position: absolute;
@@ -82,115 +65,24 @@
     transition: 0.3s;
 }
 
-/* Aumenta a linha ao passar o rato no link */
 .menu ul li a:hover::after {
     width: 100%;
 }
 
-/* Remove margens e espaçamentos padrão */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Fixa o header no topo da página */
-.header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1;
-}
-
-/* Define espaçamento padrão para todas as secções */
-section {
-    padding: 30px 80px;
-}
-
-/* Estilo dos títulos h2 */
-h2 {
-    color: #0a2c66;
-    margin-bottom: 20px;
-}
-
-/* Layout da secção missão, visão e valores */
-.missao-visao {
-    display: flex;
-    gap: 30px;
-}
-
-/* Estilo dos box */
-.box {
-    flex: 1;
-    background-color: #FAFAFA;
-    padding: 20px;
-    border-left: 7px solid #FFD700;
-    border-radius: 6px;
-}
-
-/* Título dentro dos box */
-.box h3 {
-    margin-bottom: 10px;
-    color: #0a2c66;
-    font-size: 20px;
-}
-
-/* Texto dentro dos box */
-.box p {
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: justify;
-    color: #0a2c66;
-}
-
-/* Animação dos box */
-.box {
-    transition: transform 0.4s ease;
-}
-
-/* Remove estilo padrão da lista do publico-alvo */
-.publico ul {
-    list-style: none;
-    padding: 0;
-}
-
-/* Estilo dos itens da lista do publico-alvo */
-.publico li {
-    padding: 10px 0;
-    border-bottom: 1px solid #0a2c66;
-}
-
-/* Layout dos cards de áreas de atuação */
-.cards {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-/* Estilo dos cards */
-.card {
-    flex: 1 1 250px;
-    background-color: #0a2c66;
-    color: white;
-    padding: 30px;
-    text-align: center;
-    border-radius: 8px;
-    transition: 0.3s;
-    font-weight: bold;
-}
-
-/* Efeito hover dos cards */
-.card:hover {
+.navbar .btn-login {
     background-color: #ffc107;
     color: #0a2c66;
+    padding: 3px 10px;
+    border-radius: 4px;
     font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-/* Espaçamento da secção princípios */
-.principios {
-    padding: 60px 80px;
+.navbar .btn-login:hover {
+    color: #0a2c66;
 }
 
-/* Botão de voltar ao topo */
 #btn-topo {
     position: fixed;
     bottom: 20px;
@@ -204,45 +96,7 @@ h2 {
     cursor: pointer;
 }
 
-/* Botão de contacto */
-.btn-contacto {
-    display: inline-block;
-    background-color: #ffc107;
+h2 {
     color: #0a2c66;
-    padding: 12px 25px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 6px;
-}
-
-/* Secção de contacto fica acima de outros elementos */
-.entre-contacto {
-    position: relative;
-    z-index: 1;
-}
-
-/* Imagens dentro da secção ganhos */
-.ganhos .box img {
-    width: 50%;
-    height: auto;
-    margin-top: 15px;
-    border-radius: 6px;
-}
-
-/* Margem do simbolo de login*/
-.login-icon {
-    margin-left: 20px;
-}
-
-/* Estilo do ícone de login */
-.login-icon i {
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-/* Efeito hover do ícone de login */
-.login-icon i:hover {
-    color: #ffc107;
+    margin-bottom: 20px;
 }

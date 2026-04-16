@@ -1,128 +1,3 @@
-/* Define o tamanho e formato arredondado do logo */
-.logoGeipe {
-    width: 120px;
-    height: 120px;
-    border-radius: 25%;
-}
-
-/* Destaca o link ativo no menu */
-.menu ul li a.ativo {
-    color: #ffc107;
-}
-
-/* Define o tamanho do logo dentro da navbar */
-.logo img {
-    width: 50px;
-    height: auto;
-}
-
-.navbar .btn-login {
-    background-color: #ffc107;
-    color: #0a2c66;
-    padding: 3px 10px;
-    border: none;
-    border-radius: 4px;
-    font-weight: bold;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.navbar .btn-login:hover {
-    color: #0a2c66;
-}
-
-/* Define o estilo da barra de navegação */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6px 60px;
-    background-color: #0a2c66;
-}
-
-/* Organiza os itens do menu */
-.menu ul {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-/* Define o estilo dos links do menu */
-.menu ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    transition: all 0.3s ease;
-    position: relative;
-}
-
-/* Efeito ao passar o rato nos links do menu */
-.menu ul li a:hover {
-    color: #ffc107;
-    transform: scale(1.1);
-}
-
-/* Linha por baixo dos links */
-.menu ul li a::after {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 2px;
-    background-color: #ffc107;
-    left: 0;
-    bottom: -5px;
-    transition: 0.3s;
-}
-
-/* Faz a linha aparecer ao passar o rato nos links */
-.menu ul li a:hover::after {
-    width: 100%;
-}
-
-/* Remove margens e define a fonte do site */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Mantém o header fixo no topo */
-.header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1;
-}
-
-/* Define o espaçamento das secções */
-section {
-    padding: 30px 80px;
-}
-
-/* Estilo padrão dos títulos h2 */
-h2 {
-    color: #0a2c66;
-    margin-bottom: 20px;
-}
-
-/* Estilo do botão de voltar ao topo */
-#btn-topo {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 12px 15px;
-    font-size: 18px;
-    background-color: #0a2c66;
-    color: white;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-/* Estilo do título da página do body */
 .titulo {
     font-size: 28px;
     color: #0a2c66;
@@ -132,7 +7,6 @@ h2 {
     font-weight: bold;
 }
 
-/* Estilo do texto abaixo do título */
 .descricao {
     font-size: 16px;
     font-weight: bold;
@@ -142,14 +16,12 @@ h2 {
     max-width: 700px;
 }
 
-/* Define a estrutura geral dos cards */
 .cards {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-/* Estilo base de cada card */
 .card {
     background-color: #0a2c66;
     color: white;
@@ -157,55 +29,47 @@ h2 {
     border-radius: 8px;
 }
 
-/* Organiza imagem e conteúdo do card para ficaren ao lado */
 .card-info {
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-/* Estilo da imagem dentro do card */
 .card-logo img {
     width: 120px;
     height: auto;
-    background-color: none;
     padding: 10px;
     border-radius: 20px;
 }
 
-/* Aplica flex no contyeudo do card */
 .card-conteudo {
     flex: 1;
 }
 
-/* Estilo do título dentro do card */
 .card-conteudo h3 {
     color: #ffc107;
     margin-bottom: 10px;
 }
 
-/* Estilo do texto dentro do card */
 .card-conteudo p {
     line-height: 1.6;
     margin-bottom: 15px;
 }
 
-/* Estilo do botão de visitar o site dentro do card */
 .botao {
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     color: #0a2c66;
-    border-radius: 2px;
     background-color: #ffc107;
     padding: 10px 15px;
+    border-radius: 4px;
 }
-/* Margem do simbolo de login*/
+
 .login-icon {
     margin-left: 20px;
 }
 
-/* Estilo do ícone de login */
 .login-icon i {
     color: white;
     font-size: 20px;
@@ -213,7 +77,6 @@ h2 {
     transition: 0.3s;
 }
 
-/* Efeito hover do ícone de login */
 .login-icon i:hover {
     color: #ffc107;
 }
