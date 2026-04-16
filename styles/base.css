@@ -72,9 +72,8 @@ section {
 .navbar .btn-login {
     background-color: #ffc107;
     color: #0a2c66;
-    padding: 3px 10px;
+    padding: 5px 10px;
     border-radius: 4px;
-    font-weight: bold;
     text-decoration: none;
     transition: 0.3s;
 }
