@@ -46,7 +46,8 @@
 }
 
 .card {
-    flex: 1 1 250px;
+    flex: 1;
+    min-width: 250px;
     background-color: #0a2c66;
     color: white;
     padding: 30px;
