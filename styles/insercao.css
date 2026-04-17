@@ -66,17 +66,32 @@
     border-radius: 4px;
 }
 
-.login-icon {
-    margin-left: 20px;
-}
-
-.login-icon i {
+.estagios .card {
+    flex: 250px;
+    background-color: #0a2c66;
     color: white;
-    font-size: 20px;
-    cursor: pointer;
+    padding: 30px;
+    text-align: left;
+    border-radius: 8px;
     transition: 0.3s;
 }
 
-.login-icon i:hover {
+.estagios .card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
     color: #ffc107;
+}
+
+.estagios .card ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+.estagios .card li {
+    margin-bottom: 9px;
+}
+
+.estagios .card p {
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
