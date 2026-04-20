@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    color: #0a2c66;
+    background-color: #0a2c66;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.caixaLogin {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: lightgray;
+    width: 300px;
+    text-align: center;
+}
+
+.campo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+.btn-entrar {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-entrar:hover {
+    background-color: #0a2c66; 
+    color: white;
+}
+
+a {
+    color: #134abe;
+    text-decoration: none;
+    font-size: 14px;
+}
