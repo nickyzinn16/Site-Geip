@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="utf-8">
-    <title>Login - GEIPE</title>
-    <link rel="icon" type="image/png" href="./resources/images/logo-geipe.png">
-    <link rel="stylesheet" href="./styles/login.css">
-    <script src="https://kit.fontawesome.com/35842701b4.js" crossorigin="anonymous"></script>
-</head>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <title>Login - GEIPE</title>
+        <link rel="icon" type="image/png" href="./resources/images/logo-geipe.png">
+        <link rel="stylesheet" href="./styles/login.css">
+        <script src="https://kit.fontawesome.com/35842701b4.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
 
-    <div class="caixaLogin">
-        <h2>Entre na plataforma do GEIPE</h2>
+        <div class="caixaLogin">
+            <h2>Entre na plataforma do GEIPE</h2>
+            
+            <form>
+                <div class="campo">
+                    <label>Utilizador:</label>
+                    <input type="text" placeholder="Nome do utilizador">
+                </div>
+
+                <div class="campo">
+                    <label>Senha:</label>
+                    <input type="password" placeholder="Senha do utilizador">
+                </div>
+
+                <button type="button" class="btn-entrar">Iniciar Sessão</button>
+            </form>
+
+            <p><a href="index.html">Voltar ao Início</a></p>
+        </div>
         
-        <form>
-            <div class="campo">
-                <label>Utilizador:</label>
-                <input type="text" placeholder="Nome do utilizador">
-            </div>
-
-            <div class="campo">
-                <label>Senha:</label>
-                <input type="password" placeholder="Senha do utilizador">
-            </div>
-
-            <button type="button" class="btn-entrar">Iniciar Sessão</button>
-        </form>
-
-        <p><a href="index.html">Voltar ao Início</a></p>
-    </div>
-<script>
-    const caixaLogin = document.querySelector('.caixaLogin');
-    document.addEventListener('click', function(event) {
-        if (!loginBox.contains(event.target)) {
-            alert("Dados nao preencidos completamente");
-        }
-    });
-</script>
-</body>
+        <script>
+            const caixaLogin = document.querySelector('.caixaLogin');
+            document.addEventListener('click', function(event) {
+                if (!loginBox.contains(event.target)) {
+                    alert("Dados nao preencidos completamente");
+                }
+            });
+        </script>
+    </body>
 </html>
