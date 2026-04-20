@@ -10,30 +10,42 @@
         <script src="https://kit.fontawesome.com/35842701b4.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="grid-container">
-            <header class="header">
-                <nav class="navbar">
-                <div class="logo">
-                    <a href="index.html">
-                        <img alt="Logo GEIPE" src="./resources/images/logo-geipe.png" class="logoGeipe">
-                    </a>
+        <div>
+            <main class="formu">
+                <div class="form">
+
+                    <h2>Formulário ao Candidato</h2>
+                    <form class="box">
+                        <div class="form-lab">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome">
+                        </div>
+
+                        <div class="form-lab">
+                            <label for="area">Area Escolar</label>
+                            <select type="text" id="area" name="area">
+                                <option value="">Selecione uma area</option>
+                                <option value="asibd">ASIBD</option>
+                                <option value="artes graficas">Artes Graficas</option>
+                                <option value="contabilidade">Contabilidade</option>
+                                <option value="eletricidade">Eletrotecnia</option>
+                                <option value="inforgestao">Informatica de Gestao</option>
+                                <option value="mecanica">Mecanotencia</option>
+                            </select>
+                        </div>
+
+                        <div class="form-lab">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <button type="submit">Enviar</button>
+                </form>
                 </div>
-                    <div class="menu">
-                        <ul>
-                            <li><a href="index.html" class="ativo">Início</a></li>
-                            <li><a href="estagios.html" class="ativo">Estágios</a></li>
-                            <li><a href="insercao.html">Inserção Profissional</a></li>
-                            <li><a href="empreendedorismo.html">Empreendedorismo</a></li>
-                            <li><a href="contactos.html">Contacta-nos</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="login.html" class="btn-login">Login</a></li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
+            </main>
         </div>
 
-        <button id="btn-topo">↑</button>
+        
         <script src="./scripts/politicas.js"></script>
         <script src="./scripts/botao.js"></script>
     </body>
