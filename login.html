@@ -8,22 +8,21 @@
         <script src="https://kit.fontawesome.com/35842701b4.js" crossorigin="anonymous"></script>
     </head>
     <body>
-
         <div class="caixaLogin">
             <h2>Entre na plataforma do GEIPE</h2>
             
-            <form>
+            <form id="loginForm">
                 <div class="campo">
                     <label>Utilizador:</label>
-                    <input type="text" placeholder="Nome do utilizador">
+                    <input type="text" placeholder="Nome do utilizador" required>
                 </div>
 
                 <div class="campo">
                     <label>Senha:</label>
-                    <input type="password" placeholder="Senha do utilizador">
+                    <input type="password" placeholder="Senha do utilizador" required>
                 </div>
 
-                <button type="button" class="btn-entrar">Iniciar Sessão</button>
+                <button type="submit" class="btn-entrar">Iniciar Sessão</button>
             </form>
 
             <p><a href="index.html">Voltar ao Início</a></p>
@@ -31,9 +30,17 @@
         
         <script>
             const caixaLogin = document.querySelector('.caixaLogin');
-            document.addEventListener('click', function(event) {
-                if (!loginBox.contains(event.target)) {
-                    alert("Dados nao preencidos completamente");
+            const form = document.getElementById('loginForm');
+
+            // Corrigido: O alerta agora funciona ao submeter sem dados
+            form.addEventListener('submit', function(event) {
+                const inputs = form.querySelectorAll('input');
+                let vazio = false;
+                inputs.forEach(input => { if(!input.value) vazio = true; });
+                
+                if (vazio) {
+                    event.preventDefault();
+                    alert("Dados não preenchidos completamente");
                 }
             });
         </script>

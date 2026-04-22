@@ -1,60 +1,67 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color: #0a2c66;
-    background-color: #0a2c66;
+    margin: 0;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+    align-items: center; 
+    background-color: #f0f0f0;
 }
 
 .caixaLogin {
-    background: white;
-    padding: 30px; 
-    border-radius: 10px;
-    box-shadow: lightgray;
-    width: 300px;
+    background: rgba(10, 44, 102, 0.95); 
+    padding: 40px; 
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    width: 320px;
     text-align: center;
+    color: white;
 }
 
 .campo {
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left; 
 }
 
 .campo label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     font-weight: bold;
 }
 
 .campo input {
     width: 100%;
-    padding: 8px;
-    border: 1px solid black;
+    padding: 12px;
+    border: none;
     border-radius: 5px;
     box-sizing: border-box; 
+    background-color: white;
 }
 
 .btn-entrar {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     background-color: #ffc107;
-    color: black;
+    color: #0a2c66;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .btn-entrar:hover {
-    background-color: #0a2c66; 
-    color: white;
+    background-color: #e5ac00;
+    transform: scale(1.02);
 }
 
 a {
-    color: #134abe;
+    color: #ffc107;  
     text-decoration: none;
     font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
 }
