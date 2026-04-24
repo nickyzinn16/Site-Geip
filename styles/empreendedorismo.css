@@ -9,28 +9,24 @@
 
 .cards {
     display: flex;
-    flex-direction: column;
-    gap: 18px;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .card {
+    flex: 1;
+    min-width: 250px;
     background-color: #0a2c66;
     color: white;
-    padding: 18px 20px;
+    padding: 30px;
+    text-align: center justify;
+    line-height: 1.4;
     border-radius: 8px;
-    text-align: left;
+    transition: 0.3s;
+    font-weight: bold;
 }
 
-.card h3 {
-    color: #ffc107;
-    margin-bottom: 10px;
-}
-
-.card p {
-    margin: 0;
-    line-height: 1.5;
-    font-size: 15px;
+.card:hover {
+    background-color: #ffc107;
+    color: #0a2c66;
 }
