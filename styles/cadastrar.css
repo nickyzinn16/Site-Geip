@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #f0f0f0;
+}
+
+.caixaCadastrar {
+    background: rgba(10, 44, 102, 0.95); 
+    padding: 40px; 
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0);
+    width: 320px;
+    text-align: center;
+    color: white;
+}
+
+.campo {
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.campo input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    background-color: white;
+}
+
+.btn-entrar {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffc107;
+    color: #0a2c66;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-entrar:hover {
+    background-color: #e5ac00;
+    transform: scale(1.02);
+}
+
+a {
+    color: #ffc107;  
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

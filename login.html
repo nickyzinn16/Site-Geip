@@ -24,14 +24,13 @@
 
                 <button type="submit" class="btn-entrar">Iniciar Sessão</button>
             </form>
-            <p><a href="Cadastrar.html">Não Tenho Conta</a></p>
+            <p><a href="cadastrar.html">Não Tenho Conta</a></p>
         </div>
         
         <script>
             const caixaLogin = document.querySelector('.caixaLogin');
             const form = document.getElementById('loginForm');
-
-            // Corrigido: O alerta agora funciona ao submeter sem dados
+            
             form.addEventListener('submit', function(event) {
                 const inputs = form.querySelectorAll('input');
                 let vazio = false;
