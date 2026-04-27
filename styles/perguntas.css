@@ -1,12 +1,15 @@
+/* Secção das perguntas frequentes */
 .faq {
     padding: 40px 80px;
 }
 
+/* Título da secção perguntas */
 .faq h2 {
     color: #0a2c66;
     margin-bottom: 25px;
 }
 
+/* Cada item da FAQ */
 .faq-item {
     margin-bottom: 20px;
     padding: 15px 20px;
@@ -16,10 +19,12 @@
     transition: transform 0.3s ease;
 }
 
+/* Efeito ao passar o rato em cada pergunta */
 .faq-item:hover {
     transform: scale(1.03);
 }
 
+/* Estilo de pergunta */
 .pergunta {
     margin: 0;
     color: #0a2c66;
@@ -27,23 +32,9 @@
     font-weight: bold;
 }
 
+/* Estilo do texto da resposta */
 .resposta {
     margin-top: 8px;
     color: #242323;
     line-height: 1.5;
-}
-
-.login-icon {
-    margin-left: 20px;
-}
-
-.login-icon i {
-    color: white;
-    font-size: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.login-icon i:hover {
-    color: #ffc107;
 }

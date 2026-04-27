@@ -1,18 +1,22 @@
+/* Define o espaçamento das secções */
 .section {
     padding: 30px 80px;
 }
 
+/* Estilo dos títulos da página */
 .h2 {
     color: #0a2c66;
     margin-bottom: 20px;
 }
 
+/* Organização dos cards */
 .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
+/* Estilo de cada card de empreendedorismo */
 .card {
     flex: 1;
     min-width: 250px;
@@ -26,6 +30,7 @@
     font-weight: bold;
 }
 
+/* Efeito ao passar o rato sobre os cards */
 .card:hover {
     background-color: #ffc107;
     color: #0a2c66;

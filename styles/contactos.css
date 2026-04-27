@@ -1,8 +1,10 @@
+/* Estilo do formulário */
 form {
     display: flex;
     flex-direction: row;
 }
 
+/* Área de contactos */
 .contact-area {
     display: flex;
     flex-direction: row;
@@ -12,27 +14,32 @@ form {
     padding-bottom: 2px;
 }
 
+/* Estilo do título da área de contactos */
 .contact-area h2 {
     color: #0a2c66;
     margin-bottom: 10px;
 }
 
+/* Estilo do texto da área de contactos */
 .contact-area p {
     margin-bottom: 25px;
     color: rgb(75, 75, 75);
 }
 
+/* Organização do formulário em coluna */
 .contact-form {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
+/* Estilo dos labels do formulário */
 .contact-form label {
     font-weight: bold;
     color: #0a2c66;
 }
 
+/* Estilo de input e textarea */
 .contact-form input,
 .contact-form textarea {
     padding: 10px;
@@ -41,6 +48,7 @@ form {
     font-size: 16px;
 }
 
+/* Estilo do botão de envio do formulário */
 .contact-form button {
     width: 150px;
     padding: 10px;
@@ -53,11 +61,13 @@ form {
     transition: 0.3s;
 }
 
+/* Efeito hover do botão de enviar */
 .contact-form button:hover {
     background-color: #ffc107;
     color: #0a2c66;
 }
 
+/* Estilo da imagem da área de contactos */
 .contact-image img {
     width: 700px;
     height: auto;
