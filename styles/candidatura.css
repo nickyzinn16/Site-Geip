@@ -1,4 +1,4 @@
-/* Estilo da página de candidatura (do formulário) */
+/*estilo da página do formulario*/
 body {
     background-color: #9d9ea0;
     box-shadow: #000000d3;
@@ -8,7 +8,7 @@ body {
     margin: 0;
 }
 
-/* Formulário de candidatura */
+/*caixa do formulario*/
 .form {
     background: white;
     padding: 30px; 
@@ -18,20 +18,20 @@ body {
     text-align: center;
 }
 
-/* Estrutura do formulário */
+/*como ira ficar o formulario por dentro*/
 .form-lab {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
 }
 
-/* Estilo do label */
+/*estilo do label*/
 .form-lab label{
     width: 140px;
     font-weight: bold;
 }
 
-/* Estilo dos campos */
+/*estilo dos campos*/
 .form select, 
 .form input{
     flex: 1;
@@ -40,7 +40,7 @@ body {
     border-radius: 5px;
 }
 
-/* Estilo do botão de enviar o formulário */
+/*estilo do botao*/
 .form button {
     width: 100%;
     padding: 10px;
